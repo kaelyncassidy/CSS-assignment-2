@@ -26,6 +26,7 @@ nav ul li {
   font-size: 1.5rem;
   color: #379CB2;
   text-transform: uppercase;
+  font-stretch: semi-expanded;
 }
 nav ul li a {text-decoration: none;}
 
@@ -40,8 +41,7 @@ img {
 }
 article {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 2rem
@@ -49,6 +49,7 @@ article {
 #cougar {
   background: #B26219;
 }
+#cougar .text {color: #fff;}
 
 #lion {
   background: #FFD5AE;
@@ -58,19 +59,18 @@ article {
   background: #FFBD82;
 }
 h2 {
-  text-align: center;
+  text-align: left;
 }
 section {
-  max-width: 500px
+  max-width: 600px;
+
 }
 .text {
-  background: #fff;
   color: #000;
-  padding: 2rem;
+  padding: 0.5rem
 }
 .photo {font-size: 75%;
-color: #000;
-}
+color: #000;}
 
 footer { text-align: center;}
 
